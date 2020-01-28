@@ -1,6 +1,6 @@
 // Code your solution in this file!
 const returnFirstTwoDrivers = function returnFirstTwoDrivers(arr) {
-    return [arr[0], arr[1]]
+    return arr.slice(0, 2)
 }
 
 const returnLastTwoDrivers = function returnLastTwoDrivers(arr) {
